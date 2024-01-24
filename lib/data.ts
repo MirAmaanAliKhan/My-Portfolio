@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import MovieR from "@/public/movieR.png"
+import Football from "@/public/Football.png"
+import ChatApi from "@/public/ChatApi.png"
 
 export const links = [
   {
@@ -27,81 +27,85 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelors Of Engineering",
+    location: "Osmania University",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I completed my bachelors in Computer Science Engineering with a CGPA of 8.30.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019-2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Front-End Developer Intern",
+    location: "Rejolt EDtech",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer intern for 3 months, where my job was to implement UI/UX design using ReactJS.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Cloud Student Program Intern",
+    location: "PayPal AWS",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Learnt AWS tools  and services. Built environments for Software Developments. Used services like EC2, S3 etc.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023",
+  },
+  {
+    title: "Software Developer",
+    location: "Self",
+    description:
+      "I am right now building applications on langchain and websocket API's.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Football Club",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "It is a football club webpage, that has features like -events, trophy cabinets, socials, testimonials etc. This was my initial project which I built using reactJS.",
+    tags: ["React", "HTML", "CSS"],
+    imageUrl: Football,
   },
   {
-    title: "rmtDev",
+    title: "AL-Bayan",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "An application that enables easy religious learnings. Currently I'm building this appliaction with a team of 3 for a hackathon in KSA.",
+    tags: ["React Native", "TypeScript", "Tailwind","Django","NLP"],
+    imageUrl: ChatApi,
   },
   {
-    title: "Word Analytics",
+    title: "Chat AI",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A basic chat application that uses websockets, langchain to communicate with a language model.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind","SQL lite","Django"],
+    imageUrl: ChatApi,
   },
+  {
+    title: "Movie Recommendation System",
+    description:
+      "Built on jupyter notebook using ML model- Cosine Similarity.",
+    tags: ["Python", "NumPy", "Pandas","SQL lite"],
+    imageUrl: MovieR,
+  }
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+"ReactJS",
+"NextJS",
+"Tailwind",
+"Framer Motion",
+"Typescript",
+"Python",
+"Java",
+"Django",
+"PostgreSQL",
+"Langchain",
+"WebSocket API",
+"React Native"
 ] as const;
