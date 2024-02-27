@@ -55,10 +55,10 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Software Developer",
-    location: "Self",
+    title: "Software Developer -Fullstack",
+    location: "SRZK Global Solutions LLP",
     description:
-      "I am right now building applications on langchain and websocket API's.",
+      "Built Gen AI appliactions. Maintained code integrity and ensured responsivness of applications. Designed APIs and managed databases",
     icon: React.createElement(FaReact),
     date: "Present",
   },
